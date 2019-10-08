@@ -1,10 +1,10 @@
-const CACHE_NAME="sample-pwa-cache-v3";
+const CACHE_NAME="sample-pwa-cache-v4";
 const cacheAssets = [
-    './index.html',
-    './about.html',
-    './contact.html',
-    './main.css',
-    './main.js',
+    '/sample-pwa/index.html',
+    '/sample-pwa/about.html',
+    '/sample-pwa/contact.html',
+    '/sample-pwa/main.css',
+    '/sample-pwa/main.js',
     // '/sw.js',
 ];
 
