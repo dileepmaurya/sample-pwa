@@ -1,8 +1,12 @@
 const CACHE_NAME="sample-pwa-cache-v2";
 const cacheAssets = [
-    './main.css',
-    './main.js',
-    './sw.js'
+    '/',
+    '/index.html',
+    '/about.html',
+    '/contact.html',
+    '/main.css',
+    '/main.js',
+    // '/sw.js',
 ];
 
 self.addEventListener('message', (e) => {
