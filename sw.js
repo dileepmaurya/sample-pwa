@@ -1,11 +1,11 @@
-const CACHE_NAME="sample-pwa-cache-v5";
+const CACHE_NAME="sample-pwa-cache-v6";
 const cacheAssets = [
+    '/sample-pwa/',
     '/sample-pwa/index.html',
     '/sample-pwa/about.html',
     '/sample-pwa/contact.html',
     '/sample-pwa/main.css',
     '/sample-pwa/main.js',
-    // '/sw.js',
 ];
 
 self.addEventListener('message', (e) => {
