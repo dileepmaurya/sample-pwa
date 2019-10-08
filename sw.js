@@ -1,8 +1,8 @@
-const CACHE_NAME="my-site-cache-v2";
+const CACHE_NAME="sample-pwa-cache-v1";
 const cacheAssets = [
-    '/',
     './main.css',
-    './main.js'
+    './main.js',
+    './sw.js'
 ];
 
 self.addEventListener('message', (e) => {
