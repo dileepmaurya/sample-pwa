@@ -1,4 +1,4 @@
-const CACHE_NAME="sample-pwa-cache-v1";
+const CACHE_NAME="sample-pwa-cache-v2";
 const cacheAssets = [
     './main.css',
     './main.js',
